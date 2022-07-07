@@ -1,0 +1,22 @@
+.table-list{
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: 100px;
+    width: 1000px;
+}
+
+.table-list_scroll{
+    overflow-x: scroll;
+    grid-template-columns: 200px;
+}
+
+.table-list_scroll::-webkit-scrollbar{
+    background: none;
+    height: 5px;
+    cursor: pointer;
+}
+
+.table-list_scroll::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: aqua;
+}

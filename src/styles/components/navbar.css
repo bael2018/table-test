@@ -1,0 +1,32 @@
+.navbar{
+    background: aqua;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navbar h3{
+    color: white;
+    margin: 0;
+}
+
+.navbar__edit-btn{
+    background-color: white;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 500;
+    transition: .3s;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar__edit-btn:hover{
+    transform: scale(1.1);
+}
+
+.navbar__edit-btn:active{
+    transform: scale(1);
+}

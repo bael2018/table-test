@@ -1,0 +1,30 @@
+.redirect{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redirect h3{
+    font-size: 40px;
+}
+
+.redirect button{
+    background-color: aqua;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.redirect button:hover{
+    transform: scale(1.1);
+}
+
+.redirect button:active{
+    transform: scale(1);
+}

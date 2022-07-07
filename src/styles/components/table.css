@@ -1,0 +1,45 @@
+.table{
+    border: 1px solid aqua;
+}
+
+.table__child{
+    display: flex;
+}
+
+.table__child-order{
+    background: aqua;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+    font-size: 19px;
+}
+
+.table__empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.table__child-order_sized{
+    width: 48px;
+}
+
+.error-handler{
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.error-handler h3{
+    color: aqua;
+    font-size: 30px;
+    margin: 0;
+}
